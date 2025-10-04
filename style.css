@@ -1,0 +1,159 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    line-height: 1.6;
+    padding: 2rem 0;
+    background-color: #bfdfcc;
+}
+h1{
+     font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(39, 112, 136); 
+    
+}
+.image {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin:50px auto;
+    max-width: 800px;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.1),
+    0 8px 40px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgb(107, 212, 172);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateY(0);
+}
+
+.image img:hover {
+    transform: translateY(-8px);
+    box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.15),
+    0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.section {
+    padding: 4rem 1rem;
+}
+
+@media (min-width: 640px) {
+    .section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+}
+
+ .container {
+    max-width: 80rem;
+    margin: 0 auto; 
+}
+
+.section-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    color:rgb(39, 112, 136);;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+ .card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    transition: box-shadow 0.4s ease;
+    padding: 55px; 
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+ .card-header {
+    padding: 1.5rem;
+}
+
+.card-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(39, 112, 136); 
+    margin-bottom: 0.5rem;
+}
+
+ .card-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0;
+}
+
+ .card-content {
+    padding: 0 1.5rem;
+}
+
+.card-description {
+    color: #6b7280;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: rgb(41, 146, 180);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+ .button:hover {
+    background-color: #41af6f;
+}
+
+ .card-header {
+    padding: 1rem;
+}
+
+.card-content {
+    padding: 0 1rem;
+}
+
+footer{
+    text-align: center;
+    color: rgb(39, 112, 136); 
+}
