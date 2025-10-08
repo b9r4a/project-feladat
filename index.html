@@ -34,9 +34,63 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     </div>
 
     <div class="image">
-        <img src="image/gyerek_kep2.jpg" alt="gyerek" title="kattintson a képre ha szeretne a gyerek életmentésről tanulni" onclick="kattintas()">
-        <img src="image/felnott_kep.jpg" alt="felnott" title="kattintson a képre ha szeretne a felnőtt életmentésről tanulni" onclick="kattintas()">
-        
+        <img src="image/gyerek_kep2.jpg" alt="gyerek" id="gyerekgomb" title="kattintson a képre ha szeretne a gyerek életmentésről tanulni" onclick="gyerekkattintas()">
+        <img src="image/felnott_kep.jpg" alt="felnott" id="felnottgomb" title="kattintson a képre ha szeretne a felnőtt életmentésről tanulni" onclick="felnottkattintas()">
+    </div>
+
+    <div id="gyerekmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-number"></div>
+                        <h3 class="card-name">Elsősegélynyújtás</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Gyerek</p>
+                        <a href="gyerek.html#elsosegelynyujtas" class="button">Tovább</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-number"></div>
+                        <h3 class="card-name">Stabil oldalfektetés</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Gyerek</p>
+                        <a href="gyerek.html#stabil" class="button">Tovább</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="felnottmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-number"></div>
+                        <h3 class="card-name">Elsősegélynyújtás</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Felnőtt</p>
+                        <a href="felnott.html#elsosegelynyujtas" class="button">Tovább</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-number"></div>
+                        <h3 class="card-name">Stabil oldalfektetés</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Felnőtt</p>
+                        <a href="felnott.html#stabil" class="button">Tovább</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
    <section class="section">
