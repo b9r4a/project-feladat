@@ -8,12 +8,19 @@ let btn = document.getElementById("myBtn");
 
 let span = document.getElementsByClassName("close")[0];
 
-
+//felnott
 let indexArray = []
 
 for (let i = 0; i < 10; i++) {
   indexArray.push(i)
 
+}
+
+//gyerek
+let indexArray2 = []
+
+for (let i = 0; i < 10; i++) {
+  indexArray2.push(i)
 }
 
 function randomArray() {
@@ -61,8 +68,8 @@ function felnottkattintas() {
     }
 }
 
-
-document.getElementById("gomb").addEventListener("click", () => {
+//felnott
+document.getElementById("button").addEventListener("click", () => {
   randomArray();
   fetch("questions.json")
     .then(json => json.json())
@@ -74,6 +81,26 @@ function writeJson(json){
     const item = json[i]
     console.log(item.question)
     item.answers.forEach(element => {
+      console.log(`Válasz: + ${element.text} - ${element.points}`)
+
+    });
+  });
+}
+
+
+//gyerek
+document.getElementById("button2").addEventListener("click", () => {
+  randomArray();
+  fetch("questions2.json")
+    .then(json => json.json())
+    .then(json => {writeJson(json)});
+})
+
+function writeJson(json){
+  indexArray2.forEach(i => {
+    const items = json[i]
+    console.log(items.question)
+    items.answers.forEach(element => {
       console.log(`Válasz: + ${element.text} - ${element.points}`)
 
     });

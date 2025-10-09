@@ -1,0 +1,49 @@
+[
+  
+    {
+      "id": 1,
+      "question": "Mi az első teendőd, ha valaki a földön fekszik?",
+      "answers": [
+        {"text": "Nézd meg, hogy biztonságos-e a terep.", "points": 2},
+        {"text": "Fuss oda és rázd meg.", "points": 0},
+        {"text": "Nézd meg, hogy biztonságos-e a terep, majd húzd el a lábát.", "points": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Mit mondj a sérültnek, ha odalépsz hozzá?",
+      "answers": [
+        {"text": "„Jó napot!”", "points": 2},
+        {"text": "„Segíthetek, néni?”", "points": 1},
+        {"text": "„Miért fekszel itt?”", "points": 0}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Hogyan nézed meg, vesz-e levegőt?",
+      "answers": [
+        {"text": "Emeld meg az állát, tedd a füled az orra fölé, és számolj 10-ig.", "points": 2},
+        {"text": "Emeld meg a fejét, tedd az arcod a mellkasához.", "points": 1},
+        {"text": "Csak nézd, hogy mozog-e a szája.", "points": 0}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Mi a teendő, ha nem hallod, hogy levegőt vett?",
+      "answers": [
+        {"text": "Hívd a mentőket a 112-n.", "points": 2},
+        {"text": "Menj el, és keresd meg a szüleit.", "points": 0},
+        {"text": "Hívd a mentőket a 111-en.", "points": 1}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Mit csinálj, amíg a mentők kiérnek?",
+      "answers": [
+        {"text": "Nyomd le a mellkasát a szegycsontnál, majd engedd fel.", "points": 2},
+        {"text": "Masszírozd a karját.", "points": 0},
+        {"text": "Nyomd le a mellkasát a hasánál.", "points": 1}
+      ]
+    }
+  
+]
