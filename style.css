@@ -196,3 +196,49 @@ footer{
   text-decoration: none;
   cursor: pointer;
 }
+
+.oklevel-gyerek {
+    align-items:center;
+    text-align:center;
+}
+
+.h1-gyerek {
+    font-family:"Monotype Corsiva";
+    color:#da1f10;
+    font-size:100px;
+}
+
+.h2-gyerek {
+    font-family: "Mulish", sans-serif;
+    color:#4c2e2f;
+    font-size:32px;
+}
+
+.h3-gyerek {
+    font-family: "Mulish", sans-serif;
+    color:#4c2e2f;
+    font-size:24px;
+}
+
+.pont-gyerek {
+    font-family: "Mulish", sans-serif;
+    color:#4c2e2f;
+    font-size:75px;
+    text-transform:uppercase;
+}
+
+.jobbra-gyerek {
+    align-items:right;
+    text-align:right;
+    width:50%;
+}
+
+.jobbra-gyerek.hr {
+    height:20px;
+}
+
+.alairas-gyerek {
+    font-family:cursive;
+    color:black;
+    size:28px;
+}
