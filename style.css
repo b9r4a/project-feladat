@@ -215,8 +215,14 @@ footer{
 }
 
 .oklevel-gyerek {
+    padding:600px;
     align-items:center;
     text-align:center;
+    background-image:url(image/gyerek_oklevel.jpg);
+    background-repeat:no-repeat;
+    background-size:45% 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .h1-gyerek {
@@ -245,9 +251,11 @@ footer{
 }
 
 .jobbra-gyerek {
+    margin-left:600px;
     align-items:right;
-    text-align:right;
-    width:50%;
+    text-align:center;
+    position:right;
+    margin-right:200px;
 }
 
 .jobbra-gyerek.hr {
