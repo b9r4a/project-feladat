@@ -3,36 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="wave.css">
+    <link rel="stylesheet" href="card.css">
+    
     <title>Te is menthetsz életet - a hősök köztünk élnek</title>
 </head>
 <body>
-    
-    <div class="inner-header">
-        <h1>Elsősegélynyújtás</h1>
+  <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-hand-holding-medical"></i>
+            </div>
+            <h1>Elsősegély Útmutató</h1>
+            <h2>(Felnőtt)</h2>
+        </header>
+        
+        <div class="instructions">
+            <p>Kattints bármelyik lépésre a részletes útmutató megtekintéséhez</p>
+            <p>Az elsősegély megfelelő nyújtása életeket menthet</p>
+        </div>
+        
+        
+                        <div class="section">
+                <div class="section-title">
+                    <i class="fas fa-heartbeat"></i>
+                    <h2>Újraélesztés (CPR)</h2>
+                </div>
+                
+                <div class="cards-grid">
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">1</div>
+                            <div class="card-title">Térd és kéz helyzete</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Nézze meg, hogy biztonságos –e a helyszín, ha igen, menjen oda a sérülthöz. Szólítsa meg hangosan, ha nem reagál, térdeljen le mellé, szólítsa meg újra, majd rázza meg a vállát.
+                            <br><img src="adultimage/felnott1.jpg" alt="1lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">2</div>
+                            <div class="card-title">Távolabbi kar elhelyezése</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Ha továbbra sem reagál, nézzen körül, ha lát maga körül embereket, szóljon nekik, hogy hívjanak mentőt, ha nincs Ön körül senki, akkor tárcsázza a 112-t, vagy indítsa el az ÉletMentő appot.
+                            br<img src="adultimage/felnott2.jpg" alt="2lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">3</div>
+                            <div class="card-title">Távolabbi láb megemelése</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Emelje fel a sérült állát, tegye szabaddá a légutakat.
+                            <br><img src="adultimage/felnott3.jpg" alt="3lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">4</div>
+                            <div class="card-title">Fordítás a tested felé</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Hajoljon a sérült fölé és 10 másodpercig vizsgálja a légzését. 10 másodperc alatt 2 erős légvételt kell, hogy halljon.
+                            <br><img src="adultimage/felnott4.jpg" alt="4lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">5</div>
+                            <div class="card-title">Fej pozicionálása</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            A telefonban a diszpécser végig segíteni fog Önnek! Mondja el, hogy hívják, hol van most pontosan, hány sérült van, milyen sérülést tapasztal. A telefont a mentők kiérkezéséig NE TEGYE LE! 
+                            <br><img src="adultimage/kartya5.webp" alt="5lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">6</div>
+                            <div class="card-title">Légzés ellenőrzése</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                           Kezdje meg az újraélesztést. Kulcsolja össze a kezeit, majd a szegycsont végétől 2 ujjnyira helyezze a tenyérgyököt a szegycsontra és nyomja le 5-6 cm mélyen. A lenyomásokat folyamatosan végezze, amíg a mentősök ki nem érnek. Ne feledje: ha nem csinálja tökéletesen, még akkor is többet tesz a betegért, mintha nem csinálna semmit. 
+                            <br><img src="adultimage/felnott6.jpg" alt="6lepes">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+           
+        
+        <footer>
+            <p> &copy; 2025</p>
+        </footer>
     </div>
 
 
-<div>
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-<defs>
-<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-</defs>
-<g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-</g>
-</svg>
-</div>
-
-    <button class="vissza"><a href="index.html">Vissza a főldalra</a></button>
-    <footer>&copy;2025</footer>
-
-
-    <script src="java.js"></script>    
+    <script src="card.js"></script>    
 </body>
 </html>
