@@ -3,32 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="wave.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="card.css">
     <title>Te is menthetsz életet - a hősök köztünk élnek</title>
 </head>
 <body>
     
-    <div class="inner-header">
-        <h1>Elsősegélynyújtás</h1>
-    </div>
-
-
-<div>
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-<defs>
-<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-</defs>
-<g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-</g>
-</svg>
-</div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-hand-holding-medical"></i>
+            </div>
+            <h1>Elsősegély Útmutató</h1>
+            <h2>(gyermek)</h2>
+        </header>
+        
+        <div class="instructions">
+            <p>Kattints bármelyik lépésre a részletes útmutató megtekintéséhez</p>
+            <p>Az elsősegély megfelelő nyújtása életeket menthet</p>
+        </div>
+        
+        
+                        <div class="section">
+                <div class="section-title">
+                    <i class="fas fa-heartbeat"></i>
+                    <h2>Újraélesztés (CPR)</h2>
+                </div>
+                
+                <div class="cards-grid">
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">1</div>
+                            <div class="card-title">Helyszin vizsgálata</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Vizsgáld meg, hogy biztonságos –e a terep. Ha igen, menj oda a sérülthöz és jó hangosan köszönj neki: „Jó napot!” Ha nem mozdul, rázd meg a vállát. 
+                            <br><img src="kidimage/kartya1.webp" alt="1lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">2</div>
+                            <div class="card-title">Légzés vizsgálat</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Vizsgáld meg, hogy vesz –e levegőt. Kicsit emeld meg az állát és tedd a füledet az orra fölé. Számolj el 10-ig lassan. Ennyi idő alatt 2 levegőt kell, hogy vegyen. 
+                            <br><img src="kidimage/kartya2.webp" alt="2lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">3</div>
+                            <div class="card-title">Hívása a 112-nek</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Ha nem hallottad, hogy levegőt vett, akkor hívd a mentősöket a 112 számon. Mondd el hogy hívnak, hol vagy most, mit tapasztaltál. 
+                            <br><img src="kidimage/kartya3.webp" alt="3lepes">
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="toggleCard(this)">
+                        <div class="card-header">
+                            <div class="step-badge">4</div>
+                            <div class="card-title">Újraélesztés</div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="card-content">
+                            Mindenben segíteni fognak. Csak tedd, amit mondanak. Amennyire tudod, nyomd le a mellkasát a kemény szegycsont részénél a mellkasán, majd engedd fel. Addig végezd ezt, amíg ki nem érnek a mentősök. 
+                            <br><img src="kidimage/kartya4.webp" alt="4lepes">
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
  
 
 
@@ -41,6 +95,6 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     <footer>&copy;2025</footer>
 
 
-    <script src="java.js"></script>    
+    <script src="card.js"></script>    
 </body>
 </html>
