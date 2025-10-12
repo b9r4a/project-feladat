@@ -215,7 +215,7 @@ footer{
 }
 
 .oklevel-gyerek {
-    padding:600px;
+    padding:450px;
     align-items:center;
     text-align:center;
     background-image:url(image/gyerek_oklevel.jpg);
@@ -228,44 +228,38 @@ footer{
 .h1-gyerek {
     font-family:"Monotype Corsiva";
     color:#da1f10;
-    font-size:100px;
+    font-size:90px;
 }
 
 .h2-gyerek {
     font-family: "Mulish", sans-serif;
     color:#4c2e2f;
-    font-size:32px;
+    font-size:30px;
 }
 
 .h3-gyerek {
     font-family: "Mulish", sans-serif;
     color:#4c2e2f;
-    font-size:24px;
+    font-size:22px;
 }
 
 .pont-gyerek {
     font-family: "Mulish", sans-serif;
     color:#4c2e2f;
-    font-size:75px;
+    font-size:67px;
     text-transform:uppercase;
 }
 
 .jobbra-gyerek {
-    margin-left:600px;
+    margin-left:400px;
     align-items:right;
     text-align:center;
     position:right;
-    margin-right:200px;
-}
-
-.jobbra-gyerek.hr {
-    height:20px;
 }
 
 .alairas-gyerek {
     font-family:cursive;
     color:black;
-    size:28px;
 }
 
 #gombok {
