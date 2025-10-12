@@ -262,6 +262,36 @@ footer{
     color:black;
 }
 
+.oklevel-felnott {
+    padding:425px;
+    align-items:center;
+    text-align:center;
+    background-image:url(image/felnott_oklevel.png);
+    background-repeat:no-repeat;
+    background-size:65% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.h1-felnott {
+    font-family:"Georgia Bold";
+    color:#8c4a1e;
+    font-size:88px;
+}
+
+.h3-felnott {
+    font-family:"Arial";
+    color:#8c4a1e;
+    font-size:25px;
+}
+
+.pont-felnott {
+    font-family: "Lucida Handwriting";
+    color:black;
+    font-size:67px;
+    text-transform:uppercase;
+}
+
 #gombok {
     display: flex;
     justify-content: center;
