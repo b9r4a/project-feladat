@@ -263,7 +263,7 @@ footer{
 }
 
 .oklevel-felnott {
-    padding:425px;
+    padding:450px;
     align-items:center;
     text-align:center;
     background-image:url(image/felnott_oklevel.png);
@@ -277,19 +277,49 @@ footer{
     font-family:"Georgia Bold";
     color:#8c4a1e;
     font-size:88px;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
+.h2-felnott {
+    font-family:"Arial";
+    color:#8c4a1e;
+    font-size:25px;
 }
 
 .h3-felnott {
     font-family:"Arial";
     color:#8c4a1e;
-    font-size:25px;
+    font-size:20px;
 }
 
 .pont-felnott {
     font-family: "Lucida Handwriting";
     color:black;
     font-size:67px;
-    text-transform:uppercase;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
+.alairas-felnott {
+    font-family: "Lucida Handwriting";
+    color:black;
+    font-size:22px;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
+.flex-felnott {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    max-width: 800px;
+    position: relative;
+}
+
+.flex-felnott hr {
+    width: 122%;
+    margin-left:-10%;
 }
 
 #gombok {
