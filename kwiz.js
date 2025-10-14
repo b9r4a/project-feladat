@@ -30,3 +30,29 @@ function writeJson(json){
     });
   });
 }
+
+function Kiszamol(){
+const adatok = document.getElementById("datas");
+    array = [];
+
+    let fromdata = new FormData(adatok);
+    let osszeg = 0;
+
+    for (const [key,value] of fromdata) {
+        console.log(`${key}: ${value}`);
+
+        array[key] = value;
+        let sz = parseInt(value);
+        if (!isNaN(sz)) {
+
+            osszeg += sz;
+        }
+        
+    }
+    
+
+
+    console.log(array);
+    console.log(osszeg);
+
+}
