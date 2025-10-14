@@ -243,6 +243,13 @@ footer{
     font-size:22px;
 }
 
+.h4-gyerek {
+    font-family: "Mulish", sans-serif;
+    color:#4c2e2f;
+    font-size:22px;
+    text-align:left;
+}
+
 .pont-gyerek {
     font-family: "Mulish", sans-serif;
     color:#4c2e2f;
