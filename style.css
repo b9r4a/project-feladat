@@ -270,7 +270,7 @@ footer{
 }
 
 .oklevel-felnott {
-    padding:450px;
+    padding:500px;
     align-items:center;
     text-align:center;
     background-image:url(image/felnott_oklevel.png);
@@ -283,7 +283,7 @@ footer{
 .h1-felnott {
     font-family:"Georgia Bold";
     color:#8c4a1e;
-    font-size:88px;
+    font-size:130px;
     margin-top:0%;
     margin-bottom:0%;
 }
@@ -311,7 +311,7 @@ footer{
 .alairas-felnott {
     font-family: "Lucida Handwriting";
     color:black;
-    font-size:22px;
+    font-size:19px;
     margin-top:0%;
     margin-bottom:0%;
 }
@@ -325,8 +325,7 @@ footer{
 }
 
 .flex-felnott hr {
-    width: 122%;
-    margin-left:-10%;
+    width:120%;
 }
 
 #gombok {
