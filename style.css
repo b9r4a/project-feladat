@@ -247,7 +247,6 @@ footer{
     font-family: "Mulish", sans-serif;
     color:#4c2e2f;
     font-size:22px;
-    text-align:left;
 }
 
 .pont-gyerek {
@@ -264,9 +263,25 @@ footer{
     position:right;
 }
 
+.jobbra-gyerek hr {
+    justify-content:right;
+    margin-right:-60%;
+}
+
 .alairas-gyerek {
     font-family:cursive;
     color:black;
+}
+
+.alairas-gyerek hr {
+    width:50%;
+}
+
+#alairas-gyerek-igazgato {
+    font-family: "Pacifico";
+    font-size:70px;
+    margin-top:0%;
+    margin-bottom:0%;
 }
 
 .oklevel-felnott {
