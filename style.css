@@ -311,7 +311,7 @@ footer{
 .alairas-felnott {
     font-family: "Lucida Handwriting";
     color:black;
-    font-size:19px;
+    font-size:17px;
     margin-top:0%;
     margin-bottom:0%;
 }
@@ -320,12 +320,29 @@ footer{
     display: flex;
     gap: 100px;
     justify-content: center;
-    max-width: 800px;
+    max-width: 1000px;
     position: relative;
+    text-align:center;
 }
 
-.flex-felnott hr {
-    width:120%;
+.flex-felnott-igazgato hr {
+    width:200%;
+    justify-content:left;
+    margin-left:-75%;
+}
+
+.flex-felnott-datum hr {
+    width:150%;
+    justify-content:right;
+    margin-right:-60%;
+}
+
+#alairas-felnott-igazgato {
+    margin-left:-50%;
+}
+
+#alairas-felnott-datum {
+    margin-right:-60%;
 }
 
 #gombok {
