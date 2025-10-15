@@ -46,6 +46,19 @@ const adatok = document.getElementById("datas");
         if (!isNaN(sz)) {
 
             osszeg += sz;
+
+          if(osszeg >=0 && osszeg<=8)
+        {
+          console.log("Sajnos ez most nem sikerült. Tanulmányozza át még párszor a kártyákat, és ne feledje: ha megpróbál segíteni, már akkor többet tett a páciensért, mint azok, akik meg sem próbálták.")
+        }
+
+        else if (osszeg >=9 && osszeg <=14 )
+        {
+          console.log("Semmi baj, az alapok megvannak, egy gyors ismétlés és sokkal jobban fog sikerülni!")
+        }
+        else if (osszeg >= 15 && osszeg <=20){
+          console.log("Kiváló teljesítmény, remek életmentő válna Önből!")
+        }
         }
         
     }

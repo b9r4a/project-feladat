@@ -47,7 +47,23 @@ const adatok = document.getElementById("datas");
         if (!isNaN(sz)) {
 
             osszeg += sz;
+
+            if(osszeg >=0 && osszeg<=2)
+        {
+          console.log("Dicséretes a próbálkozás, ne add fel, legközelebb jobban fog sikerülni!")
         }
+
+        else if (osszeg >=3 && osszeg <=6 )
+        {
+          console.log("Szép volt, de megy ez jobban is. Nézz utána még egyszer.")
+        }
+        else if (osszeg >= 7 && osszeg <=10){
+          console.log("Nagyszerű, ügyes életmentő vagy, csak így tovább!")
+        }
+        }
+
+         
+          
         
     }
 

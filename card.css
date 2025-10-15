@@ -1,4 +1,4 @@
- :root {
+:root {
     --primary:rgb(41, 146, 180);
     --secondary:  #5fb381;
     --accent: #43879c;
@@ -284,4 +284,9 @@ h2 {
 
 .vissza a:hover {
     color: #f0f0f0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
 }

@@ -13,6 +13,17 @@ h1{
     color: rgb(39, 112, 136); 
     
 }
+
+.video{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin:50px auto;
+    max-width: 800px;
+    position: relative;
+}
+
+
 .image {
     display: flex;
     gap: 60px;
@@ -40,7 +51,42 @@ h1{
     0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 2000px) {
+.video video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+@media (max-width: 900px) {
+    .video video {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .video {
+        margin: 1.5rem 0;
+        padding: 0.8rem;
+    }
+    
+    .video video {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .video {
+        margin: 1rem 0;
+        padding: 0.5rem;
+    }
+}
+
+
+
+@media (max-width: 2500px) {
     .image img {
         width: 40%;
     }
