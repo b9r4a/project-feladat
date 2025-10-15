@@ -261,13 +261,13 @@ footer{
 }
 
 .oklevel-gyerek {
-    padding:450px;
+    padding: 30px;
     align-items:center;
     text-align:center;
     background-image:url(image/gyerek_oklevel.jpg);
     background-repeat:no-repeat;
-    background-size:45% 100%;
-    background-attachment: fixed;
+    background-size:40% 100%;
+    
     background-position: center;
 }
 
@@ -303,7 +303,7 @@ footer{
 }
 
 .jobbra-gyerek {
-    margin-left:400px;
+    margin-left:200px;
     align-items:right;
     text-align:center;
     position:right;
@@ -311,7 +311,6 @@ footer{
 
 .jobbra-gyerek hr {
     justify-content:right;
-    margin-right:-60%;
 }
 
 .alairas-gyerek {
@@ -319,8 +318,8 @@ footer{
     color:black;
 }
 
-.alairas-gyerek hr {
-    width:50%;
+.oklevel-gyerek hr {
+    width:30%;
 }
 
 #alairas-gyerek-igazgato {
@@ -330,15 +329,18 @@ footer{
     margin-bottom:0%;
 }
 
+
 .oklevel-felnott {
-    padding:500px;
+    padding:300px;
     align-items:center;
     text-align:center;
     background-image:url(image/felnott_oklevel.png);
     background-repeat:no-repeat;
-    background-size:65% 100%;
-    background-attachment: fixed;
+    background-size:80% 100%;
     background-position: center;
+}
+#vonal{
+    width: 50%;
 }
 
 .h1-felnott {
@@ -381,15 +383,14 @@ footer{
     display: flex;
     gap: 100px;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1200px;
     position: relative;
     text-align:center;
 }
 
 .flex-felnott-igazgato hr {
-    width:200%;
     justify-content:left;
-    margin-left:-75%;
+    margin-left:-60%;
 }
 
 .flex-felnott-datum hr {
