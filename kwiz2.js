@@ -72,3 +72,9 @@ const adatok = document.getElementById("datas");
     console.log(osszeg);
     window.location.href = "oklevel-gyerek.html";
 }
+
+function gyerekpontszam() {
+    console.log(`${osszeg} Pont`);
+    let psz = document.getElementById("pontszam-gyerek");
+    psz.value = `${osszeg} Pont`;
+}

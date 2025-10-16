@@ -69,3 +69,9 @@ const adatok = document.getElementById("datas");
     console.log(osszeg);
     window.location.href = "oklevel-felnott.html";
 }
+
+function felnottpontszam() {
+    console.log(`${osszeg} Pont`);
+    let psz = document.getElementById("pontszam-felnott");
+    psz.value = `${osszeg} Pont`;
+}
