@@ -67,5 +67,5 @@ const adatok = document.getElementById("datas");
 
     console.log(array);
     console.log(osszeg);
-
+    window.location.href = "oklevel-felnott.html";
 }
