@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "Mit kell ellenőrizni stabil oldalfektetés előtt?",
+    "answers": [
+      {"text": "Szabad légutat és stabil légzést", "points": 2},
+      {"text": "Csak a beteg tudatát és pulzusát", "points": 1},
+      {"text": "A beteg testhőmérsékletét és vérnyomását", "points": 0}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Mit kell tenni, ha a betegnek törése van?",
+    "answers": [
+      {"text": "Nem szabad stabil oldalfektetésbe helyezni", "points": 2},
+      {"text": "Stabil oldalfektetésbe helyezhető, ha óvatosan mozgatjuk", "points": 1},
+      {"text": "Azonnal ültessük fel", "points": 0}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Hogyan ellenőrizhető, hogy a csontok nem törtek-e?",
+    "answers": [
+      {"text": "Óvatos nyomással a koponyán, mellkason, csigolyákon, medencén", "points": 2},
+      {"text": "Erős rázással és ütögetéssel", "points": 1},
+      {"text": "Csak szemrevételezéssel, tapintás nélkül", "points": 0}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Mi jelezhet koponyaalapi törést?",
+    "answers": [
+      {"text": "A fülből szivárgó vér vagy véres folyadék", "points": 2},
+      {"text": "Csak fejfájás és szédülés", "points": 1},
+      {"text": "A kar zsibbadása", "points": 0}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Mi történik, ha több borda ablakosan eltörik?",
+    "answers": [
+      {"text": "A bordakosár könnyebben összenyomható lesz", "points": 2},
+      {"text": "A mellkas teljesen mozdulatlanná válik", "points": 1},
+      {"text": "A beteg azonnal eszméletét veszti", "points": 0}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Milyen hang kísérheti a csont törését?",
+    "answers": [
+      {"text": "Recsegő hang", "points": 2},
+      {"text": "Tompa puffanás", "points": 1},
+      {"text": "Nincs semmilyen hang", "points": 0}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Mit kell figyelni hasi sérülés esetén?",
+    "answers": [
+      {"text": "A has megkeményedését, ami belső vérzésre utalhat", "points": 2},
+      {"text": "Csak a bőr színét", "points": 1},
+      {"text": "Csak azt, hogy a beteg panaszkodik-e fájdalomra", "points": 0}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Hogyan helyezzük el a beteg felső lábát stabil oldalfektetésnél?",
+    "answers": [
+      {"text": "Csípőnél és térdnél derékszögben hajlítva", "points": 2},
+      {"text": "Teljesen kinyújtva", "points": 1},
+      {"text": "A másik láb alá gyűrve", "points": 0}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Mi a helyes fejpozíció stabil oldalfektetésben?",
+    "answers": [
+      {"text": "Kissé hátra és lefelé döntve", "points": 2},
+      {"text": "Teljesen előrehajtva", "points": 1},
+      {"text": "Teljesen hátrahajtva", "points": 0}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Mit kell tenni a stabil oldalfektetés után?",
+    "answers": [
+      {"text": "Folyamatosan ellenőrizni a beteg légzését", "points": 2},
+      {"text": "Magára lehet hagyni, ha már stabil", "points": 1},
+      {"text": "Azonnal el kell vinni a helyszínről", "points": 0}
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "Mit csinálsz, ha egy embert látsz feküdni a földön?",
+    "answers": [
+      {"text": "Körülnézel, hogy biztonságos-e a helyszín, és megvizsgálod, vesz-e levegőt", "points": 2},
+      {"text": "Odarohansz és megrázod, hogy felébredjen", "points": 1},
+      {"text": "Elszaladsz, nehogy baj legyen", "points": 0}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Hány másodpercig kell figyelni, hogy vesz-e levegőt?",
+    "answers": [
+      {"text": "10 másodpercig", "points": 2},
+      {"text": "5 másodpercig", "points": 1},
+      {"text": "Egész percig", "points": 0}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Miért kell a beteg kezét a teste mellé, kifelé tenni?",
+    "answers": [
+      {"text": "Hogy könnyebben lehessen átfordítani", "points": 2},
+      {"text": "Csak azért, mert így szebb pózban van", "points": 1},
+      {"text": "Hogy ne lógjon útban a földön", "points": 0}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Mit csinálsz, ha nehéz felhúzni a beteg lábát?",
+    "answers": [
+      {"text": "Megfoghatod a nadrágját a térdénél", "points": 2},
+      {"text": "Meghúzod a cipőjénél", "points": 1},
+      {"text": "Inkább hagyod, mert túl nehéz", "points": 0}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Mit kell tenned, miután a beteget oldalra fordítottad?",
+    "answers": [
+      {"text": "Figyelni tovább a légzését és hívni a 112-t", "points": 2},
+      {"text": "Ott hagyni, mert már kész vagy", "points": 1},
+      {"text": "Elmenni, hogy ne lásd a balesetet", "points": 0}
+    ]
+  }
+]

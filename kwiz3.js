@@ -14,10 +14,10 @@ window.addEventListener("load", () => {
     indexArray.push(i)
   }
   randomArray();
-  fetch("questions2.json")
+  fetch("questions3.json")
     .then(resp => resp.json())
     .then(json => { writeJson(json, datasEl) })
-    .catch(err => console.error("questions2.json betöltési hiba:", err));
+    .catch(err => console.error("questions3.json betöltési hiba:", err));
 })
 
 function writeJson(json, datasEl){
@@ -54,7 +54,7 @@ function Kiszamol(){
   } else if (osszeg >=3 && osszeg <=6 ) {
       eredmenyUzenet = "Szép volt, de megy ez jobban is. Nézz utána még egyszer";
   } else if (osszeg >= 7 && osszeg <=10) {
-      eredmenyUzenet = "Dicséretes a próbálkozás, ne add fel, legközelebb jobban fog sikerülni!";
+      eredmenyUzenet = "Nagyszerű, ügyes életmentő vagy, csak így tovább";
   }
 
   console.log(array);

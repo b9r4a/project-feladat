@@ -10,14 +10,14 @@ window.addEventListener("load", () => {
   if (!datasEl) return;
 
   indexArray = [];
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 10; i++) {
     indexArray.push(i)
   }
   randomArray();
-  fetch("questions2.json")
+  fetch("questions4.json")
     .then(resp => resp.json())
     .then(json => { writeJson(json, datasEl) })
-    .catch(err => console.error("questions2.json betöltési hiba:", err));
+    .catch(err => console.error("questions4.json betöltési hiba:", err));
 })
 
 function writeJson(json, datasEl){
@@ -49,12 +49,12 @@ function Kiszamol(){
   }
 
   let eredmenyUzenet = "";
-  if(osszeg >=0 && osszeg<=2) {
-      eredmenyUzenet = "Dicséretes a próbálkozás, ne add fel, legközelebb jobban fog sikerülni!";
-  } else if (osszeg >=3 && osszeg <=6 ) {
-      eredmenyUzenet = "Szép volt, de megy ez jobban is. Nézz utána még egyszer";
-  } else if (osszeg >= 7 && osszeg <=10) {
-      eredmenyUzenet = "Dicséretes a próbálkozás, ne add fel, legközelebb jobban fog sikerülni!";
+  if(osszeg >=0 && osszeg<=8) {
+      eredmenyUzenet = "Sajnos ez most nem sikerült. Tanulmányozza át még párszor a kártyákat, és ne feledje: ha megpróbál segíteni, már akkor többet tett a páciensért, mint azok, akik meg sem próbálták.";
+  } else if (osszeg >=9 && osszeg <=14 ) {
+      eredmenyUzenet = "Semmi baj, az alapok megvannak, egy gyors ismétlés és sokkal jobban fog sikerülni!";
+  } else if (osszeg >= 15 && osszeg <=20) {
+      eredmenyUzenet = "Kiváló teljesítmény, remek életmentő válna Önből!";
   }
 
   console.log(array);
@@ -63,6 +63,6 @@ function Kiszamol(){
   localStorage.setItem('osszeg', String(osszeg));
   localStorage.setItem('osszeg_message', eredmenyUzenet);
 
-  window.location.href = "oklevel-gyerek.html";
+  window.location.href = "oklevel-felnott.html";
 }
 

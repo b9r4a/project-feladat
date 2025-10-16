@@ -15,7 +15,7 @@
     <div class="oklevel-felnott">
         <h1 class="h1-felnott">Gratulálunk!</h1>
         <h2 class="h2-felnott">A Siófoki SzC Mathiász János Technikum, Gimnázium és Kollégium Mathiász napi  <br>rendezvényén az elsősegély projektet Ön </h2>
-        <p class="pont-felnott" id="pont-felnott">ponttal<br><hr id="vonal"></p>
+        <p class="pont-felnott" id="pont-felnott">      <br>  <hr id="vonal"></p>
         
         <h2 class="h2-felnott">teljesítette.</h2>
         <div class="flex-felnott">
@@ -31,6 +31,26 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="kwiz.js"></script> 
+
+    
+    <script>
+      (function(){
+        const osszeg = localStorage.getItem('osszeg');
+        const uzenet = localStorage.getItem('osszeg_message');
+        if (osszeg !== null) {
+          const psz = document.getElementById('pont-felnott');
+          if (psz) {
+            
+            psz.innerHTML = osszeg + " ponttal<br><span id='osszeg-uzenet'></span><br>";
+            const msgEl = document.getElementById('osszeg-uzenet');
+            if (msgEl) msgEl.textContent = uzenet || "";
+          } else {
+            console.warn("#pont-felnott elem nem található");
+          }
+          localStorage.removeItem('osszeg');
+          localStorage.removeItem('osszeg_message');
+        }
+      })();
+    </script>
 </body>
 </html>

@@ -15,8 +15,8 @@
     <div class="oklevel-gyerek">
         <h2 class="h2-gyerek">​​Siófoki Szc Mathiász János Technikum,<br>Gimnázium és Kollégium​</h2>
         <h1 class="h1-gyerek">Elismerő oklevél</h1>
-        <h3 class="h3-gyerek">Az elsősegély projekt sikeres elvégzéséért az alábbi<br>pontszámmal:</h3>
-        <h1 class="pont-gyerek" id="pontszam-gyerek" onload="gyerekpontszam()">​​………..Pont​ </h1>
+        <h3 class="h3-gyerek" id="pont-gyerek"><br></h3>
+        <h1 class="pont-gyerek" id="pontszam-gyerek" >​​</h1>
         <h3 class="h3-gyerek">​Szívből gratulálunk!</h3>
         <div class="jobbra-gyerek">
             <p class="alairas-gyerek" id="alairas-gyerek-igazgato">Szabó Sándorné</p>
@@ -26,6 +26,21 @@
             <h4 class="h4-gyerek" id="datum-gyerek">Dátum​: </h4>
         </div>
     </div>
-    <script type="text/javascript" src="kwiz2.js"></script>
+    <script>
+      (function(){
+        const osszeg = localStorage.getItem('osszeg');
+        const uzenet = localStorage.getItem('osszeg_message');
+        if (osszeg !== null) {
+          const psz = document.getElementById('pont-gyerek');
+          if (psz) {
+            psz.innerHTML = osszeg + " ponttal<br><span id='osszeg-uzenet'></span><br>";
+            const msgEl = document.getElementById('osszeg-uzenet');
+            if (msgEl) msgEl.textContent = uzenet || "";
+          }
+          localStorage.removeItem('osszeg');
+          localStorage.removeItem('osszeg_message');
+        }
+      })();
+    </script>
 </body>
 </html>
